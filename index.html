@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Refactored Sidebar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <aside class="sidebar-wrapper">
+      <input type="checkbox" id="nav-toggle" hidden>
+      
+      <!-- Hamburger Icon (Visible when sidebar hidden) -->
+      <label for="nav-toggle" class="open-btn">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+
+      <nav class="sidebar-content">
+        <div class="sidebar-header">
+          <h2>Apna College</h2>
+          <label for="nav-toggle" class="close-btn">
+            <i class="fa-solid fa-xmark"></i>
+          </label>
+        </div>
+
+        <ul class="nav-menu">
+          <li><i class="fa-solid fa-image"></i><a href="#">Gallery</a></li>
+          <li><i class="fa-solid fa-arrow-up-right-from-square"></i><a href="#">Shortcuts</a></li>
+          <li><i class="fa-solid fa-photo-film"></i><a href="#">Exhibits</a></li>
+          <li><i class="fa-solid fa-calendar-days"></i><a href="#">Events</a></li>
+          <li><i class="fa-solid fa-store"></i><a href="#">Store</a></li>
+          <li><i class="fa-solid fa-phone"></i><a href="#">Contact</a></li>
+          <li><i class="fa-regular fa-comments"></i><a href="#">Feedback</a></li>
+        </ul>
+      </nav>
+    </aside>
+  </main>
+</body>
+</html>
